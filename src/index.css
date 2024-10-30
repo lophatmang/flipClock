@@ -4,6 +4,7 @@
   --background-color-clock: #1f1f1f;
   --size-number-clock: 30rem;
   --size-clock: 600px;
+  --color-line: black;
 }
 
 body {
@@ -73,7 +74,7 @@ header h1 {
 
 .upperCard {
   align-items: flex-end;
-  border-bottom: 0.5px solid whitesmoke;
+  border-bottom: 0.5px solid var(--color-line);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -83,7 +84,7 @@ header h1 {
 
 .lowerCard {
   align-items: flex-start;
-  border-top: 0.5px solid whitesmoke;
+  border-top: 0.5px solid var(--color-line);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -117,7 +118,7 @@ header h1 {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   /* border: 0.5px solid whitesmoke; */
-  border-top: 0.5px solid whitesmoke;
+  border-top: 0.5px solid var(--color-line);
 }
 .flipCard.unfold span {
   transform: translateY(-50%);
@@ -131,7 +132,7 @@ header h1 {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   /* border: 0.5px solid whitesmoke; */
-  border-bottom: 0.5px solid whitesmoke;
+  border-bottom: 0.5px solid var(--color-line);
 }
 .flipCard.fold span {
   transform: translateY(50%);
