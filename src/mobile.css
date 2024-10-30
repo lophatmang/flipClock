@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   * {
-    --size-number-clock: 10rem;
-    --size-clock: 250px;
+    --size-number-clock: 8rem;
+    --size-clock: 200px;
   }
   .flipClock {
     flex-direction: column;
