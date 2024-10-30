@@ -1,0 +1,10 @@
+.flip-clock-wrapper ul {
+  width: 60px;
+  height: 90px;
+}
+
+/*Background colours*/
+.flip-clock-wrapper .inn {
+  background-color: #502d2d;
+  font-size: 70px;
+}
