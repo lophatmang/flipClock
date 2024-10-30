@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  * {
+    --size-number-clock: 10rem;
+    --size-clock: 250px;
+  }
+  .flipClock {
+    flex-direction: column;
+  }
+}
